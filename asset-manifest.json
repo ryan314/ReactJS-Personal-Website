@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ReactJS-Personal-Website/static/css/main.0bb17b97.css",
+    "main.js": "/ReactJS-Personal-Website/static/js/main.da9bcc01.js",
+    "static/js/787.c0c3df57.chunk.js": "/ReactJS-Personal-Website/static/js/787.c0c3df57.chunk.js",
+    "static/media/selfie.jpg": "/ReactJS-Personal-Website/static/media/selfie.063a01508226b574f79c.jpg",
+    "static/media/rpgGame1.jpg": "/ReactJS-Personal-Website/static/media/rpgGame1.c033ad24696b6f789ae0.jpg",
+    "static/media/chess.jpg": "/ReactJS-Personal-Website/static/media/chess.31cc25fc9faf4d5ade25.jpg",
+    "static/media/rpgGame7.jpg": "/ReactJS-Personal-Website/static/media/rpgGame7.2be28178861ee1838ea6.jpg",
+    "static/media/rpgGame9.jpg": "/ReactJS-Personal-Website/static/media/rpgGame9.3170ee706ac217a5d933.jpg",
+    "static/media/rpgGame2.jpg": "/ReactJS-Personal-Website/static/media/rpgGame2.0847fda041e6c161aae4.jpg",
+    "static/media/rpgGame8.jpg": "/ReactJS-Personal-Website/static/media/rpgGame8.f6bdc99d5549d02ef509.jpg",
+    "static/media/rpgGame3.jpg": "/ReactJS-Personal-Website/static/media/rpgGame3.566da48d2f77dd9c5a02.jpg",
+    "static/media/rpgGame0.jpg": "/ReactJS-Personal-Website/static/media/rpgGame0.313c3175b3f52a975eb3.jpg",
+    "static/media/rpgGame4.jpg": "/ReactJS-Personal-Website/static/media/rpgGame4.7afbd5cd548d0e358a8e.jpg",
+    "static/media/rpgGame5.jpg": "/ReactJS-Personal-Website/static/media/rpgGame5.8ee5d55e8c22b6a34b36.jpg",
+    "static/media/rpgGame6.jpg": "/ReactJS-Personal-Website/static/media/rpgGame6.e23a16d77f7ac015f312.jpg",
+    "static/media/my-piano.jpg": "/ReactJS-Personal-Website/static/media/my-piano.e46d4e38b9fe7597ac6b.jpg",
+    "static/media/game0.jpg": "/ReactJS-Personal-Website/static/media/game0.d7b94a5fee6de6b6667c.jpg",
+    "static/media/computer-science.jpg": "/ReactJS-Personal-Website/static/media/computer-science.fed9347b8d0b72b69785.jpg",
+    "static/media/absFunc1.jpg": "/ReactJS-Personal-Website/static/media/absFunc1.03356bdab23e40186962.jpg",
+    "static/media/puzzle0.jpg": "/ReactJS-Personal-Website/static/media/puzzle0.5605e6019e15ae6865dc.jpg",
+    "static/media/absFunc0.jpg": "/ReactJS-Personal-Website/static/media/absFunc0.e22d26554869f94406c3.jpg",
+    "static/media/absFunc2.jpg": "/ReactJS-Personal-Website/static/media/absFunc2.fa164d10aa1d114226f8.jpg",
+    "static/media/math.jpg": "/ReactJS-Personal-Website/static/media/math.a74ddeb79c3a69c02436.jpg",
+    "static/media/modes.jpg": "/ReactJS-Personal-Website/static/media/modes.63419b6274801786299f.jpg",
+    "static/media/game.jpg": "/ReactJS-Personal-Website/static/media/game.afd117f337a3fc847439.jpg",
+    "static/media/piano.jpg": "/ReactJS-Personal-Website/static/media/piano.1f04a6f1e508800bcc1e.jpg",
+    "index.html": "/ReactJS-Personal-Website/index.html",
+    "main.0bb17b97.css.map": "/ReactJS-Personal-Website/static/css/main.0bb17b97.css.map",
+    "main.da9bcc01.js.map": "/ReactJS-Personal-Website/static/js/main.da9bcc01.js.map",
+    "787.c0c3df57.chunk.js.map": "/ReactJS-Personal-Website/static/js/787.c0c3df57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bb17b97.css",
+    "static/js/main.da9bcc01.js"
+  ]
+}
