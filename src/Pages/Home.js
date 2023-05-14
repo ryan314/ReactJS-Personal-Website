@@ -19,7 +19,7 @@ function Home() {
         My hope for this website is to share about the various passion projects that I have created over the course of my life. 
         <br/>
         <br/> 
-        Fun fact, I programmed this website using ReactJS!!
+        Fun fact, I programmed this website using ReactJS!
       </div>
       <img className='selfie' src={selfie}></img>
     </div>
