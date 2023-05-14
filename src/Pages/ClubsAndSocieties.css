@@ -1,0 +1,17 @@
+.clubs-and-societies {
+  display: flex;
+  margin: auto;
+  max-inline-size: 500px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 10px 10px 10px rgb(231,231,231); 
+  padding: 20px;
+  transform: translate(0px, 100px);
+}
+
+.clubsandsocieties-home-btn {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    transform: translate(0px, 200px);
+}

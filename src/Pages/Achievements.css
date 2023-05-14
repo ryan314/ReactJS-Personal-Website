@@ -1,0 +1,17 @@
+.achievements {
+  display: flex;
+  margin: auto;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 10px 10px 10px rgb(231,231,231); 
+  padding: 20px;
+  max-inline-size: 500px;
+  transform: translate(0px, 200px);
+}
+
+.achievements-home-btn {
+   display: flex;
+   margin: auto;
+   transform: translate(0px, 350px);
+   padding: 10px;
+}

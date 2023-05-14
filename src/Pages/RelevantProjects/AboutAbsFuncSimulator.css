@@ -1,0 +1,47 @@
+.abs-func-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    transform: translate(0px, 100px);
+}
+
+.absFunc0-img {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(75, 182, 228);
+    transform: translate(0px, 150px);
+}
+
+.absFunc1-img {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(75, 182, 228);
+    transform: translate(0px, 200px);
+}
+
+.absFunc2-img {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(75, 182, 228);
+    transform: translate(0px, 250px);
+}
+
+.abs-func-description {
+    display: flex;
+    max-inline-size: 700px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 10px 10px 10px rgb(231,231,231); 
+    padding: 20px;
+    margin: auto;
+    transform: translate(0px, 300px);
+}

@@ -1,0 +1,47 @@
+.h-card-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 800px;
+  transform: translate(0px, 100px);
+}
+
+.h-card-1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 10px 10px 10px rgb(231,231,231); 
+  padding: 20px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.h-card-2 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: white; 
+  box-shadow: 10px 10px 10px rgb(231,231,231); 
+  padding: 20px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.h-card-3 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 10px 10px 10px rgb(231,231,231); 
+
+  padding: 20px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}

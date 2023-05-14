@@ -1,0 +1,17 @@
+.about-cs-projects-title {
+    font-size: 60px;
+    font-weight: 1000;
+    text-align: center;
+    transform: translate(0px, 100px);
+}
+
+.about-cs-projects-description {
+    display: flex;
+    max-inline-size: 700px;
+    margin: auto;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 10px 10px 10px rgb(231,231,231);
+    padding: 20px;
+    transform: translate(0px, 200px);
+}
