@@ -3,6 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import App from './App.js';
+import Home from './Pages/Home.js';
+
 
 ReactDOM.render(
   <App />, 

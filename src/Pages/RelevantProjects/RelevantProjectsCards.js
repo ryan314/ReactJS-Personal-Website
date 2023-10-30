@@ -22,12 +22,12 @@ function Cards() {
     <div className='rp-card-container'>
       <div className='rp-card-1'>
         <img src={math} className='math-img'></img>
-        <Link to='/about-abs-func-simulator'>Absolute Value Function Simulator</Link>
+        <Link to='/about_abs_func_simulator'>Absolute Value Function Simulator</Link>
       </div>
         
       <div className='rp-card-2'>
         <img src={game} className='game-img'></img>
-        <Link to='/about-rpg-game'>RPG Game</Link>
+        <Link to='/about_rpg_game'>RPG Game</Link>
       </div>
     </div>    
   );

@@ -10,8 +10,10 @@ import AboutPiano from './Pages/Hobbies/AboutPiano.js';
 import AboutCSProjects from './Pages/Hobbies/AboutCSProjects.js';
 import AboutAbsFuncSimulator from './Pages/RelevantProjects/AboutAbsFuncSimulator.js';
 import AboutRPGGame from './Pages/RelevantProjects/AboutRPGGame.js';
-import githubIcon from './Images/github-icon.png';
-import linkedinIcon from './Images/linkedin-icon.png';
+import github_icon from './Images/github-icon.png';
+import linkedin_icon from './Images/linkedin-icon.png';
+
+import React from "react";
 
 import {
   BrowserRouter as Router, 
@@ -29,40 +31,42 @@ import {
 function App() {
   return (
     <Router>
-      <nav className="navbar">
-        <Link to="/" className="nav-link">Home</Link>
-        <Link to="/RelevantProjects" className="nav-link">Projects</Link>
-        <Link to="/Education" className="nav-link">Education</Link>
-        <Link to="/Achievements" className="nav-link">Awards</Link>
-        <Link to="/ClubsAndSocieties" className="nav-link">Clubs & Societies</Link>
-        <Link to="/Hobbies" className="nav-link">Hobbies</Link>
+      <nav className="nav_bar">
+        <Link to="/" className="nav_link">Home</Link>
+        <Link to="/projects" className="nav_link">Projects</Link>
+        <Link to="/education" className="nav_link">Education</Link>
+        <Link to="/achievements" className="nav_link">Awards</Link>
+        <Link to="/clubs_and_societies" className="nav_link">Clubs & Societies</Link>
+        <Link to="/hobbies" className="nav_link">Hobbies</Link>
       </nav>
 
-      <div className="footer">
-        <a href="https://www.linkedin.com/in/ryan-chiu-835745205/">
-          <img className='linkedin-icon' src={linkedinIcon}></img>
-        </a>
-        <a href="https://github.com/ryan314?tab=repositories">
-          <img className='github-icon' src={githubIcon}></img>
-        </a>
-      </div>
-
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
 
-        <Route path="/RelevantProjects" element={<RelevantProjects />} />
-        <Route path="/about-abs-func-simulator" element={<AboutAbsFuncSimulator />} />
-        <Route path="/about-rpg-game" element={<AboutRPGGame />} />
+        <Route path="/projects" element={<RelevantProjects />} />
+        <Route path="/about_abs_func_simulator" element={<AboutAbsFuncSimulator />} />
+        <Route path="/about_rpg_game" element={<AboutRPGGame />} />
 
-        <Route path="/Education" element={<Education />} />
-        <Route path="/Achievements" element={<Achievements />} />
-        <Route path="/ClubsAndSocieties" element={<ClubsAndSocieties />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/achievements" element={<Achievements />} />
+        <Route path="/clubs_and_societies" element={<ClubsAndSocieties />} />
 
-        <Route path="/Hobbies" element={<Hobbies />} />
-        <Route path="/about-chess" element={<AboutChess />} />
-        <Route path="/about-piano" element={<AboutPiano />} />
-        <Route path="/about-cs-projects" element={<AboutCSProjects />} />        
+        <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/about_chess" element={<AboutChess />} />
+        <Route path="/about_piano" element={<AboutPiano />} />
+        <Route path="/about_cs_projects" element={<AboutCSProjects />} />        
       </Routes>
+
+      <div className="page_container">
+        <div className="footer">
+          <a href="https://www.linkedin.com/in/ryan-chiu-835745205/">
+            <img className='linkedin_icon' src={linkedin_icon}></img>
+          </a>
+          <a href="https://github.com/ryan314?tab=repositories">
+            <img className='github_icon' src={github_icon}></img>
+          </a>
+        </div>
+      </div>
     </Router>
   );
 }

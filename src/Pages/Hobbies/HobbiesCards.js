@@ -24,17 +24,17 @@ function Cards() {
     <div className='h-card-container'>
       <div className='h-card-1'>
         <img src={ComputerScience} className='cs-proj-img'></img>
-        <Link to='/about-cs-projects'>CS Projects</Link>
+        <Link to='/about_cs_projects'>CS Projects</Link>
       </div>
       
       <div className='h-card-2'>
         <img src={piano} className='piano-img'></img>
-        <Link to='/about-piano'>Piano</Link>
+        <Link to='/about_piano'>Piano</Link>
       </div>
 
       <div className='h-card-3'>
         <img src={chess} className='chess-img'></img>
-        <Link to='/about-chess'>Chess</Link>
+        <Link to='/about_chess'>Chess</Link>
       </div>
     </div>
   );

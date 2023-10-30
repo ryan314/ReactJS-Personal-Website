@@ -1,49 +1,63 @@
-.logo {
+.nav_bar {
+  /* Position */ 
   display: flex;
-  transform: translate(5%, -80%);
-
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-  font-weight: 1000;
-  color: rgb(75, 182, 228);
-}
-
-.navbar { 
-  display: flex;
-  justify-content: flex-end;
-  background: rgb(233, 232, 232);
+  justify-content: center;
   padding-top: 25px;
   padding-bottom: 25px;
+
+  /* Appearance */
+  background: rgb(226, 244, 244);
 }
 
-.nav-link {
+.nav_link {
+  /* Position */ 
+  padding: 0.2rem 1.2rem;
+  align-items: center;
+  display: flex;
+
+  /* Appearance */
+  text-decoration: none;
   font-weight: 500;
   color: black; 
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.2rem 1.2rem;
-  font-size: 15px;
+  font-size: 17px;  
 }
 
-.nav-link:hover {
+.nav_link:hover {
+  /* Appearance */
   color:rgb(75, 182, 228);
 }
 
+.page_container {
+  /* Position */
+  position: relative;
+  min-height: 100vh;
+}
+
 .footer {
-  display: flex;
+  /* Position */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2 rem;
   justify-content: flex-end;
+  display: flex;
+    
+  /* Appearance */
   background: black;
-  height: 200px; 
-  transform: translate(0px, 2000px);
 }
 
-.linkedin-icon {
-  width: 50px;
+.linkedin_icon {
+  /* Position */
   margin: 15px 10px 0px 10px;
+
+  /* Appearance */
+  width: 50px;
 }
 
-.github-icon {
-  width: 50px;
+.github_icon {
+  /* Position */
   margin: 15px 10px 0px 10px;
+
+  /* Appearance */
+  width: 50px;
 }

@@ -1,47 +1,22 @@
-.selfie {
+.home-page {
+    /* Position */
     display: flex;
-    margin: auto;
-    width: 300px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: rgb(52, 154, 198);
-    transform: translate(0px, 100px);
+    align-items: center;
 }
 
 .biography {
-    /* Positioning */
-
-    transform: translate(0px, 100px);
+    /* Position */
+    transform: translate(0%, 100%);
     max-inline-size: 600px;
     writing-mode: horizontal-tb;
     margin: auto;
-
     display: flex;
     min-width: 500px;
     border-radius: 5px;
     padding: 20px;
-    font-size: 20px;
+
+    /* Appearance */
+    font-size: 15px;
     background: white; 
     box-shadow: 10px 10px 10px rgb(231,231,231); 
-}
-
-.site-link1 {
-    display: block;
-    transform: translate(0px, 500px);
-    text-align: center;
-    color: black;
-
-}
-
-.site-link2 {
-    display: block;
-    transform: translate(0px, 500px);
-    text-align: center;
-    
-    color: black;
-}
-
-.AAA {
-    display: flex;
-    align-items: center;
 }
